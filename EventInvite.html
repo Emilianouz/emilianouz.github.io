@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+           body {
+               background:#aed6f1;
+               font-family:"Helvetica",Sans-serif;
+           }
+            .list {
+                font: italic 16px monospace;
+                
+            }
+            #table {
+               font: italic 13px monospace;
+               margin-top:15px;
+               margin-right:15px;
+               padding:10px;
+               border-width:50px;
+            }
+            th, td {
+                padding-right: 30px;
+                 text-align:center;
+            }
+            span {
+             font-weight:bold;   
+            }
+            img {
+             box-shadow: 2px 1px 3px 3px darkblue;
+            }
+            #main-card {
+                float:left;
+                padding:20px;
+                margin:30px;
+                background:#cb4335;
+                width:400px;
+                height:900px;
+                position:absolute;
+                left:20%;                
+            }
+            #food {
+                float:left;
+                padding:20px;
+                margin:30px;
+                background:rgb(214, 137, 16);
+                width:400px;
+                height:auto;
+                position:absolute;
+                left:17%;
+                top:400px;
+                z-index:3;
+            }
+            #concert{
+                float:right;
+                padding:20px;
+                margin:30px;
+                background:rgb(46, 134, 193);
+                width:400px;
+                height:auto;
+                position:absolute;
+                left:48%;
+                top:120px;
+                z-index:2;
+            }
+            #games {
+                float:right;
+                padding:20px;
+                margin:30px;
+                background:rgb(40, 180, 99);
+                width:400px;
+                height:auto;
+                position:absolute;
+                left:44%;
+                top:790px;
+                z-index:4;
+            }
+            #end-line {
+                float:left;
+                padding:3px;
+                margin:5px;
+                background:rgb(124, 66, 123);
+                width:300px;
+                height:auto;
+                color:white;
+                position:fixed;
+                right:30px;
+                top:20px;
+                z-index:5;
+            }          
+            #contact {
+                position:fixed;
+                float:left;
+                right:5%;
+                top:75%;
+                box-shadow: 0px 0px 0px 0px darkblue;
+                z-index:6;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="main-card">
+        <h1>Start Summer Festival!</h1>
+        <h2>You are invited!</h2>
+        <h3>A fantastic space for the whole family – join us for a day filled with fun, laughter, and unforgettable memories. Activities, entertainment, and something special for every age!</h3>
+        
+        <p >Come and enjoy of:</p>
+        <ul class="list">
+            <li><a href="#games">Carnival Games</a></li>
+            <li><a href="#food">Food and Contest</a></li>
+            <li><a href="#concert">Night Concert</a></li>
+        </ul>
+        </div>
+        <div id="food">
+            <h2>You don't need to cook! </h2>
+            <p>We’re serving up fun, flavor, and unforgettable eats—just for you!
+            </p>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Classic</th>
+                        <th>Sweets</th>
+                        <th>Beverages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hot Dogs</td>
+                        <td>Cotton candy</td>
+                        <td>Lemonade </td>
+                    </tr>
+                    <tr>
+                        <td>Nachos </td>
+                        <td>Cakes</td>
+                        <td>Iced tea</td>
+                    </tr>
+                    <tr>
+                        <td>Soft pretzels</td>
+                        <td>Caramel apples</td>
+                        <td>Root beer floats</td>
+                    </tr>
+                    <tr>
+                        <td>Turkey legs</td>
+                        <td>Churros</td>
+                        <td>Frozen drinks</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>Get ready for a tasty battle – it's the Amazing Food Contest!!</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Eating_Comp_21aug2005.jpg" width="300">
+            <p>Set your alarms and bring your appetites! The food contest starts at 3 PM!</p>
+        </div>
+        <div id="concert">
+        
+        <h2>Evening Concert</h2>
+        <p>Prepare to be captivated by an evening of soulful melodies and unforgettable performances.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Weezer_Bethlehem_2019_5.jpg" width="300">
+        
+        <ul class="list">
+            <li><span>Luna Melody</span> – A sparkling pop star with dreamy vocals and songs kids and parents can both hum along to.</li>
+
+            <li><span>Sunny Ray</span> – A cheerful country-folk singer who brings good vibes and sing-along tunes.</li>
+
+            <li><span>DJ Sprinkle</span> – A colorful, high-energy performer mixing beats and fun for all ages.</li>
+
+            <li><span>The Jellybean Jammers</span> – A bubbly band known for their playful pop and danceable songs.</li>
+
+            <li><span>The Beat Bunch</span> – A classic family band with a retro vibe and toe-tapping hits.</li>
+            </ul>
+            
+            </div>
+            <div id="games">
+                <h2>Carnival Games</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Amsterdam_-_Funfair_-_0560.jpg" width="300">
+                <p>Step right up and relive the magic of the midway! Our classic carnival games will be available throughout the event, bringing joy, laughter, and friendly competition to guests of all ages. Whether you're a child aiming for your first prize or a grown-up looking to rekindle that nostalgic fun, there's something for everyone to enjoy.</p>
+            </div>
+            <div id="end-line">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>June 22, 2025  Since:9am</td>
+   
+                         <td>Center Park  Walkingshire</td>
+                 
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        <a href="https://web.whatsapp.com/" target="_blank"><img id="contact" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" width="150"></a>      
+    </body>
+</html>
